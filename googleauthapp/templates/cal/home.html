@@ -1,4 +1,6 @@
-{% extends 'base.html' %} {% load widget_tweaks %} {% block content %}
+{% extends 'base.html' %} 
+{% load googleauthapp %} 
+{% block content %}
 <h1 class="event_title">Booking Event List</h1>
 <div class="event">
   {% for item in booking_event %}
